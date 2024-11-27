@@ -1,6 +1,7 @@
-import Apps.AparelhoTelefonico;
-import Apps.Navegador;
-import Apps.ReprodutorMusical;
+package Iphone;
+import Iphone.Apps.AparelhoTelefonico;
+import Iphone.Apps.Navegador;
+import Iphone.Apps.ReprodutorMusical;
 
 public class Iphone{
 public static void main(String[] args) {

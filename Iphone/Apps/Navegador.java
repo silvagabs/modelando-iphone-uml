@@ -1,4 +1,4 @@
-package Apps;
+package Iphone.Apps;
 public class Navegador {
  public void exibirPagina(){
     System.out.println("Exibindo pagina");
