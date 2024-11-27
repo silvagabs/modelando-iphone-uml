@@ -4,19 +4,22 @@ Modelando o Iphone com UML- Praticando POO
 Diagrama de classes: 
 
 Iphone --|> ReprodutorMusical 
-    Iphone --|> NavegadorInternet 
-    Iphone --|> AparelhoTelefonico 
-    class ReprodutorMusical{
+
+Iphone --|> NavegadorInternet 
+
+Iphone --|> AparelhoTelefonico 
+
+class ReprodutorMusical{
         +tocar()
         +pausar()
         +selecionarMusica (String musica) 
     }
-   class AparelhoTelefonico {
+class AparelhoTelefonico {
        +ligar(Int numero) 
        +atender()
        +iniciarCorreioVoz()
    }
-   class NavegadorInternet{
+class NavegadorInternet{
        +exibirPagina(String url) 
        +adicionarNovaAba() 
        +atualizarPagina() 
